@@ -1,0 +1,91 @@
+
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.applepie {
+    width: 1000px;
+    height: 600px;
+    background-size: cover;
+    border: none;
+}
+
+h1 {
+    display: block;
+    font-size: 5em;
+    margin: auto;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.details {
+    font-size: 25px;
+    position: center;
+    margin: 60px 190px;
+    font-weight: lighter;
+    line-height: 32px;
+}
+
+.recipe {
+    display: block;
+    position: center; 
+    width:500px;
+    height:70px;
+    margin-top:40px;
+    margin-bottom:20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    border: 1px solid black;
+    width: 70%;
+}
+
+h2 {
+    position: center;
+    margin-left: 190px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: strong;
+}
+
+ul {
+    font-weight: lighter;
+    line-height: 25px;
+    list-style-type: none;
+    margin-left: 190px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+}
+
+.cooking {
+    display: block;
+    position: center; 
+    width:400px;
+    height:80px;
+    margin-top:40px;
+    margin-bottom:40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ol {
+    list-style-type: none;
+    line-height: 20px;
+    margin: 20px 190px 20px 190px;
+    font-size: 20px;
+    font-weight: lighter;
+}
